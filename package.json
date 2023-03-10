@@ -14,5 +14,8 @@
   "dependencies": {
     "chai": "^4.3.7",
     "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.0"
   }
 }
