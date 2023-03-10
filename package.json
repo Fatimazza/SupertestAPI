@@ -10,5 +10,8 @@
     "supertest"
   ],
   "author": "fatima",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7"
+  }
 }
