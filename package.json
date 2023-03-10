@@ -12,6 +12,7 @@
   "author": "fatima",
   "license": "ISC",
   "dependencies": {
-    "chai": "^4.3.7"
+    "chai": "^4.3.7",
+    "supertest": "^6.3.3"
   }
 }
