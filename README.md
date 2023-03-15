@@ -49,17 +49,21 @@ Change to Project directory on Terminal or Command Prompt
 cd SupertestAPI
 ```
 
-Run Test Execution on Terminal
+Run All Tests on Terminal
 
 ```Bash
-npm run test <filename.js>
+npm run test test/api/
 ```
 
 ```Bash
-mocha <filename.js>
+mocha test/api/
 ```
 
-Example
+Run Specific Test
+
+```Bash
+npm run test test/api/petStoreAPITesting.js
+```
 
 ```Bash
 mocha test/api/petStoreAPITesting.js
@@ -77,9 +81,21 @@ Run API Test with the Reporter
 
 > Note: Please wait until all test execution finished
 
+All Test
+
+```Bash
+npx mocha --spec test/api/ --reporter mochawesome --reporter-options reportFilename=allPetStoreAPITesting
+```
+
+Specific Test
+
 ```Bash
 npx mocha --spec test/api/petStoreAPITesting.js --reporter mochawesome --reporter-options reportFilename=petStoreAPITesting
 ```
 
-:white_check_mark: Test HTML Report available on <b> /SupertestAPI/mochawesome-report/petStoreAPITesting.html </b>
+Test HTML Report
+
+:white_check_mark: available on <b> /SupertestAPI/mochawesome-report/allPetStoreAPITesting.html </b>
+
+:white_check_mark: available on <b> /SupertestAPI/mochawesome-report/petStoreAPITesting.html </b>
 
