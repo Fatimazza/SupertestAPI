@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "welcome" : "mocha test/api/welcomeTest.js"
+    "welcome": "mocha test/api/welcomeTest.js"
   },
   "keywords": [
     "supertest"
