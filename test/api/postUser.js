@@ -20,6 +20,10 @@ describe("PetStore Create User - POST", () => {
         const response = await request(baseUrl)
             .post('/user')
             .send(body);
+        // logging
+        console.log(body);
+        console.log(response.status);
+        console.log(response.body);
         // assertion
         assert.equal(response.status, 200);
     })
