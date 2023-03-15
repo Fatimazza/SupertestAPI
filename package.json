@@ -4,7 +4,8 @@
   "description": "supertest api test",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "welcome" : "mocha test/api/welcomeTest.js"
   },
   "keywords": [
     "supertest"
