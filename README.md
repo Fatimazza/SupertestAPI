@@ -41,6 +41,38 @@ node --version
 
 Open this Automation Project using VS Code Editor.
 
+### Testing Tools Installation
+
+Change to Project directory on Terminal or Command Prompt
+
+```Bash
+cd SupertestAPI
+```
+
+Install Chai
+
+```Bash
+npm install chai
+```
+
+Install Supertest
+
+```Bash
+npm install supertest
+```
+
+Install Babel
+
+```Bash
+npm install --save-dev @babel/core
+```
+
+Install Mochawesome Reporter
+
+```Bash
+npm install mochawesome
+```
+
 ### Run the Automation Project 
 
 Change to Project directory on Terminal or Command Prompt
@@ -70,12 +102,6 @@ mocha test/api/petStoreAPITesting.js
 ```
 
 ### Generate Test Execution HTML Report
-
-Install Mochawesome Reporter
-
-```Bash
-npm install mochawesome
-```
 
 Run API Test with the Reporter
 
